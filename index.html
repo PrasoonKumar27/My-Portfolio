@@ -484,7 +484,7 @@ footer{background:var(--bg);border-top:1px solid var(--g2);padding:32px 44px;dis
 
       <!-- P3: AI Knowledge Base -->
       <div class="pc rv" style="transition-delay:.2s">
-        <div class="ptop"><div class="pnum">03</div><a href="https://github.com/PrasoonKumar27" class="plnk" target="_blank">⬡</a></div>
+        <div class="ptop"><div class="pnum">03</div><a href="https://github.com/PrasoonKumar27/Rag-app" class="plnk" target="_blank">⬡</a></div>
         <div class="pdate">2025 — 2026</div>
         <div class="ptitle">AI Knowledge Base <span style="font-size:13px;font-weight:400;color:var(--a2);margin-left:8px;font-family:var(--fm);letter-spacing:1px">RAG · PROD</span></div>
         <div class="pdesc">A zero-setup knowledge hub powered by RAG. Upload PDFs, spreadsheets, images, webpages, or YouTube videos — and chat with your data via Gemini AI with source citations.</div>
@@ -494,6 +494,34 @@ footer{background:var(--bg);border-top:1px solid var(--g2);padding:32px 44px;dis
           <li>JWT auth, per-account doc isolation, admin dashboard tracking token usage, API costs &amp; cache hit rates</li>
         </ul>
         <div class="pst"><span class="stk ai">Python</span><span class="stk ai">Flask</span><span class="stk ai">LangChain</span><span class="stk ai">FAISS</span><span class="stk ai">Gemini API</span><span class="stk ai">BM25</span><span class="stk ai">Tesseract OCR</span><span class="stk">SQLAlchemy</span><span class="stk">JWT</span><span class="stk">SSE</span></div>
+      </div>
+
+      <!-- P4: Power BI Dashboard -->
+      <div class="pc full rv" style="transition-delay:.3s">
+        <div class="ptop"><div class="pnum">04</div><a href="https://github.com/PrasoonKumar27/PowerBi-Dashboard" class="plnk" target="_blank">⬡</a></div>
+        <div class="pdate">JUL 2025</div>
+        <div class="ptitle">Uber Trip Analysis Dashboard <span style="font-size:13px;font-weight:400;color:var(--a2);margin-left:8px;font-family:var(--fm);letter-spacing:1px">POWER BI</span></div>
+        <div class="pdesc">A star-schema Power BI dashboard analyzing 103,728 Uber trip records for June 2024 — surfacing ride demand patterns, revenue distribution, surge pricing impact, and location-level performance across a three-page interactive report.</div>
+        <ul class="pbul">
+          <li>Modeled a star schema linking a 103K-row trip fact table to a 265-location dimension table, plus a DAX-generated calendar table for time intelligence</li>
+          <li>Built dynamic Field Parameters letting users toggle chart metrics on the fly between Bookings, Booking Value, and Trip Distance</li>
+          <li>Delivered three report pages — Overview, Time Analysis, and Details — with KPI cards, donut/bar charts, an hour-vs-day heatmap, and a drillable transaction grid</li>
+        </ul>
+        <div class="pst"><span class="stk">Power BI</span><span class="stk">DAX</span><span class="stk">Data Modeling</span><span class="stk">Star Schema</span><span class="stk">Excel</span></div>
+      </div>
+
+      <!-- P5: AI Investment Research Agent -->
+      <div class="pc full rv" style="transition-delay:.4s">
+        <div class="ptop"><div class="pnum">05</div><a href="https://github.com/PrasoonKumar27/AI-Investment-Research-Agent" class="plnk" target="_blank">⬡</a></div>
+        <div class="pdate">JUN 2026</div>
+        <div class="ptitle">AI Investment Research Agent <span style="font-size:13px;font-weight:400;color:var(--a2);margin-left:8px;font-family:var(--fm);letter-spacing:1px">LANGGRAPH · AGENTIC AI</span></div>
+        <div class="pdesc">An autonomous research agent that takes a company name, orchestrates a multi-step LangGraph workflow to gather real-time market data, and returns a structured INVEST or PASS verdict with detailed financial reasoning.</div>
+        <ul class="pbul">
+          <li>Designed a LangGraph state machine — generateQueries → search → analyze → decide — moving a company through targeted query generation, live data retrieval, and financial synthesis to a final call</li>
+          <li>Enforced strict JSON-structured LLM outputs so the Next.js frontend could reliably render the decision, reasoning, and supporting data every time</li>
+          <li>Built graceful degradation with mock search data when API keys are absent, keeping the agent fully demoable end-to-end for evaluators</li>
+        </ul>
+        <div class="pst"><span class="stk ai">Next.js</span><span class="stk ai">React</span><span class="stk ai">TypeScript</span><span class="stk ai">LangGraph</span><span class="stk ai">OpenAI GPT-4o-mini</span><span class="stk">Tavily API</span></div>
       </div>
 
     </div>
@@ -721,3 +749,4 @@ if(rs){
 </script>
 </body>
 </html>
+
